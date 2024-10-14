@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(252, 240, 225);
+    background-image: url(./images/cogu.jpg);
+}
+
+header {
+    padding: 16px ;
+    background-color: rgb(226, 225, 132);
+    color: black;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+header nav li {
+    display:inline;
+    margin-left: 16px;
+    font: 24px;
+    cursor: pointer;
+}
+
+header h1 {
+    margin-left: 10%;
+}
+
+header nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+section h2 {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+section .eco {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
+
+section img {
+    max-width: 400px;
+}
+
+section .container {
+    flex-wrap:wrap
+}
+
+#decompositores {
+    display: flex;
+    margin-top: 10px;
+}
+
+#decom, #simb, #bio, #indicadores {
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 400px; 
+    display: inline-block; 
+}
+
+
+
+header, section h2, section h3, form button {
+    font-family: "Spicy Rice", serif;
+    font-weight: normal;
+    font-style: normal;
+    font-weight: normal;
+}
+
+section p, input, textarea  {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+section {
+    list-style: none;
+    background-color: rgb(230, 206, 226);
+    padding: 30px;
+}
+
+#simbiose {
+    display: flex ;
+    margin-top: 30px;
+}
+
+#biodiversidade {
+    display: flex;
+    margin-top: 30px ;
+}
+
+#indica {
+    display: flex;
+    margin-top: 30px;
+}
+
+header nav li:hover {
+    background-color: rgb(248, 247, 247);
+    padding: 2px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contactss {
+    display: flex;
+}
+
+form input, form textarea, button{
+    display: block;
+    width: 328px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-left: 15px;
+}
+
+#duvida h3 {
+    padding: 8px;
+    margin-left: 100px;
+}
+
+form button {
+    background-color:rgb(226, 225, 132) ;
+    border: none;
+    cursor: pointer;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button:hover {
+    background-color: rgb(228, 227, 167)
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(226, 225, 132);
+}
+
+footer {
+    background-color:  rgb(226, 225, 132);
+    padding: 16px 0;
+    border: 5px black;
+}
+
+footer p {
+    margin-left: 15px;
+}
